@@ -5,7 +5,7 @@ from TreeNode import TreeNode
 
 
 def inorderTraversal(root: TreeNode) -> list:
-	"""Iteratively traversal a bst inorder 
+	"""Iteratively traverse a bst inorder 
 
 	Params
 		root - TreeNode

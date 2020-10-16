@@ -18,7 +18,7 @@ def preorderTraversal(root: TreeNode) -> list:
 			return [root.val]
 	else:
 		return
-		
+
 	preorder = []
 	node_stack = []
 
@@ -43,5 +43,9 @@ def preorderTraversal(root: TreeNode) -> list:
 	return preorder
 
 # test_1 = TreeNode(1, right=TreeNode(2, TreeNode(3)))
+
+# test_2 = TreeNode()
+
+# test_3 = None
 
 # print(preorderTraversal(root=test_1))
